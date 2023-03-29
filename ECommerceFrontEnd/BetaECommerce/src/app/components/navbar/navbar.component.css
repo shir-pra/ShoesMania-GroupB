@@ -1,0 +1,58 @@
+/* Style the navigation bar */
+.containert{
+
+    background-color: #000;
+
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2px;
+  }
+  
+  /* Style the brand link */
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style the navigation links */
+  
+  .navbar-nav {
+    margin-top: 10px;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-right: 10px;
+  }
+  
+  .nav-link:hover {
+    color: black;
+  }
+  
+  /* Style the active link */
+  
+  .nav-link.active {
+    color: black;
+  }
+  
+  /* Style the logout button */
+  
+  .navbar-nav .logout-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .logout-btn:hover {
+    background-color: #c82333;
+    cursor: pointer;
+  }
+  
